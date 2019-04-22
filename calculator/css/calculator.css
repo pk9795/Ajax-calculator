@@ -1,0 +1,33 @@
+body{
+	margin: 0;
+	padding: 0;
+	font-family: 'Lato',sans-serif;
+}
+
+.input-data{
+	text-align: center;
+}
+input[type=text]{ 
+    outline: none;
+    padding: .8em 1.5em;
+    border: 1px solid #cecece;
+}
+
+select{
+	width: 200px;
+	padding: 10px;
+	outline: none;
+	border: 1px solid #cecece;
+}
+.submitbutton{
+	 background:#3986ee;
+	 color: #fff;
+	 border: none;
+	 padding: 12px 20px;
+	 cursor: pointer;
+}
+
+/*validation error message*/
+.error{
+	color: red;
+}
